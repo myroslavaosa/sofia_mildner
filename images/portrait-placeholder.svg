@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Portrait placeholder">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d9df"/><stop offset="1" stop-color="#a8c3a0"/></linearGradient></defs>
+<rect width="400" height="500" fill="url(#g)"/>
+<circle cx="200" cy="190" r="70" fill="#fbf8fa" opacity=".85"/>
+<path d="M60 500c0-110 62-180 140-180s140 70 140 180z" fill="#fbf8fa" opacity=".85"/>
+<text x="200" y="470" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#2b1b2e">Replace with a real photo</text>
+</svg>
