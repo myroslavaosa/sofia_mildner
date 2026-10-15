@@ -1,88 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact – Sofia Mildner</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Sofia Mildner: register for a workshop, sign in or send a message about vegan nutrition and hormone-free contraception.">
+    <meta name="keywords" content="Sofia Mildner, contact, registration, workshop, cycle coaching">
+    <meta name="author" content="Sofia Mildner">
+    <title>Contact – Sofia Mildner</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <header class="site-header">
-    <h1>Sofia Mildner</h1>
-    <p class="tagline">Contact and seminar enquiries</p>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html">Biography</a></li>
-        <li><a href="career.html">Career</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body id="top" class="page-contact">
 
-  <main class="layout contact-layout">
-    <section class="form-card">
-      <h2>Send a message</h2>
-      <form action="https://httpbin.org/get" method="get">
-        <div class="field">
-          <label for="name">Your name</label>
-          <input type="text" id="name" name="name" required minlength="2" placeholder="Anna Example">
-        </div>
-        <div class="field">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" required placeholder="anna@example.com">
-        </div>
-        <div class="field">
-          <label for="topic">Topic</label>
-          <select id="topic" name="topic">
-            <option>Seminar</option>
-            <option>One-to-one counseling</option>
-            <option>Workshop or talk</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required minlength="10" placeholder="How can Sofia help you?"></textarea>
-        </div>
-        <button type="submit">Send message</button>
-      </form>
-    </section>
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <span class="logo__name">Sofia Mildner</span>
+            <span class="logo__tag">Naturopathy · Vegan Nutrition · Cycle Coaching</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html#story">Story</a></li>
+                <li><a href="index.html#expertise">Education &amp; Expertise</a></li>
+                <li><a href="index.html#photos">Photos</a></li>
+                <li><a href="index.html#qualifications">Qualifications</a></li>
+                <li><a href="seminar.html">Seminar</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <aside class="info-card">
-      <h2>Details</h2>
-      <p>Coswig, Germany<br>Teaches in Dresden</p>
-      <p>Available on site, by video call, phone or e-mail.</p>
-      <div class="badge">Seminars: 1</div>
-      <figure class="float-figure">
-        <img src="images/portrait-placeholder.svg" alt="Portrait placeholder" width="110" height="138">
-        <figcaption>Photo placeholder</figcaption>
-      </figure>
-      <p>Prefer a short note? Use the newsletter form to hear about new seminar dates.</p>
-      <a class="button-link" href="#newsletter-modal">Join the newsletter</a>
-      <p class="clear"><small>Forms on this page are demonstrations; they do not store data.</small></p>
-    </aside>
-  </main>
+    <main class="container">
 
-  <!-- Modal window (position: fixed), opened with the :target selector -->
-  <div class="modal" id="newsletter-modal" role="dialog" aria-labelledby="modal-title">
-    <div class="modal-box">
-      <a class="close" href="#" aria-label="Close">&times;</a>
-      <h2 id="modal-title">Seminar newsletter</h2>
-      <form action="https://httpbin.org/post" method="post">
-        <div class="field">
-          <label for="news-email">E-mail</label>
-          <input type="email" id="news-email" name="newsletter_email" required placeholder="you@example.com">
-        </div>
-        <div class="field check">
-          <input type="checkbox" id="consent" name="consent" required>
-          <label for="consent">I agree to receive seminar news.</label>
-        </div>
-        <button type="submit">Subscribe</button>
-      </form>
-    </div>
-  </div>
+        <!-- ===== Загальна інформація: float-картинки + накладені картинки (absolute) ===== -->
+        <section class="intro" aria-labelledby="intro-title">
+            <article class="intro__text">
+                <h1 id="intro-title">Let's get in touch</h1>
+                <img class="float-left" src="images/sofia-portrait.webp" alt="Sofia smiling" width="120" height="120">
+                <p>
+                    Whether you want to <strong>understand your cycle</strong>, switch to a
+                    <strong>vegan diet</strong> without nutrient gaps or learn
+                    <strong>hormone-free contraception</strong> &ndash; I am happy to hear from you.
+                    I work with women of every age and with companies that want to support the
+                    health of their teams.
+                </p>
+                <img class="float-right" src="images/sofia-workshop.webp" alt="Sofia during a workshop" width="120" height="120">
+                <p>
+                    Consultations take place <em>on site in Coswig and Dresden</em>, by video call,
+                    by phone or by e-mail. Workshops are held in small groups, so there is always
+                    time for your own questions. After registering you get access to recipes,
+                    cycle-tracking templates and dates of upcoming events.
+                </p>
+                <img class="float-left" src="images/sofia-desk.webp" alt="Sofia at her desk with books" width="120" height="120">
+                <p>
+                    Please use the forms below: <b>register</b> for workshops and online courses,
+                    <b>sign in</b> if you already have an account, or simply <b>write a message</b>.
+                    I usually answer within two working days.
+                </p>
+                <address>
+                    Sofia Mildner<br>
+                    Dresdner Stra&szlig;e 66, 01640 Coswig, Germany
+                </address>
+            </article>
 
-  <footer class="site-footer">
-    <p><small>&copy; 2026 Student project about Sofia Mildner.</small></p>
-  </footer>
+            <div class="stack" aria-label="Photo collage">
+                <img class="stack__item stack__item--1" src="images/sofia-workshop.webp" alt="" width="220" height="220">
+                <img class="stack__item stack__item--2" src="images/sofia-desk.webp" alt="" width="220" height="220">
+                <img class="stack__item stack__item--3" src="images/sofia-portrait.webp" alt="Collage of photos of Sofia" width="220" height="220">
+                <span class="stack__badge">Healthy women<br>build a brighter future</span>
+            </div>
+        </section>
+
+        <!-- ===== Меню форм, прилипає до верху (position: sticky) ===== -->
+        <nav class="form-nav" aria-label="Forms">
+            <a href="#register">Registration form</a>
+            <a href="#login">Login form</a>
+            <a href="#feedback">Feedback form</a>
+        </nav>
+
+        <!-- ===== ФОРМА РЕЄСТРАЦІЇ ===== -->
+        <section id="register" class="form-block form-block--register" aria-labelledby="register-title">
+            <h2 id="register-title">Registration form</h2>
+
+            <form class="reg-form" action="#register" method="post" enctype="multipart/form-data" autocomplete="on">
+                <input type="hidden" name="source" value="website-contact-page">
+
+                <div class="reg-form__col">
+                    <!-- аватар -->
+                    <label class="avatar" for="avatar" title="Upload a photo">
+                        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="24" r="12"/><path d="M10 56c2-12 11-18 22-18s20 6 22 18"/></svg>
+                        <span>Add photo</span>
+                    </label>
+                    <input class="visually-hidden" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg, image/webp">
+
+                    <fieldset>
+                        <legend>Personal data</legend>
+
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first_name" placeholder="First name" required minlength="2" maxlength="40" autocomplete="given-name">
+
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="last_name" placeholder="Last name" required minlength="2" maxlength="40" autocomplete="family-name">
+
+                        <span class="label">Gender</span>
+                        <div class="radios" role="radiogroup" aria-label="Gender">
+                            <label><input type="radio" name="gender" value="female" required checked> Female</label>
+                            <label><input type="radio" name="gender" value="male"> Male</label>
+                            <label><input type="radio" name="gender" value="diverse"> Diverse</label>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="age" min="14" max="99" step="1" value="21" required>
+                            </div>
+                            <div>
+                                <label for="birthdate">Date of birth</label>
+                                <input type="date" id="birthdate" name="birthdate" min="1926-01-01" max="2012-12-31">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="reg-form__col">
+                    <fieldset>
+                        <legend>Contact &amp; account</legend>
+
+                        <label for="country">Country of residence</label>
+                        <select id="country" name="country" required>
+                            <option value="" disabled selected>Choose your country</option>
+                            <optgroup label="DACH">
+                                <option value="de">Germany</option>
+                                <option value="at">Austria</option>
+                                <option value="ch">Switzerland</option>
+                            </optgroup>
+                            <optgroup label="Other">
+                                <option value="ua">Ukraine</option>
+                                <option value="pl">Poland</option>
+                                <option value="cz">Czech Republic</option>
+                                <option value="other">Other country</option>
+                            </optgroup>
+                        </select>
+
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" list="cities" placeholder="Start typing&hellip;">
+                        <datalist id="cities">
+                            <option value="Dresden">
+                            <option value="Coswig">
+                            <option value="Meißen">
+                            <option value="Radebeul">
+                            <option value="Leipzig">
+                        </datalist>
+
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+49(XXX)XXX-XX-XX" pattern="\+?[0-9\s()\-]{7,20}" autocomplete="tel">
+
+                        <label for="social">Social network</label>
+                        <input type="url" id="social" name="social" placeholder="https://instagram.com/your-name">
+
+                        <label for="reg-email">E-mail</label>
+                        <input type="email" id="reg-email" name="email" placeholder="name@mail.com" required autocomplete="email">
+
+                        <label for="reg-password">Password <small>(min. 8 characters, a letter and a digit)</small></label>
+                        <input type="password" id="reg-password" name="password" placeholder="Password" required minlength="8" pattern="(?=.*\d)(?=.*[A-Za-z]).{8,}" autocomplete="new-password">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Interests</legend>
+                        <div class="checks">
+                            <label><input type="checkbox" name="topics" value="cycle"> Cycle &amp; NFP</label>
+                            <label><input type="checkbox" name="topics" value="vegan"> Vegan nutrition</label>
+                            <label><input type="checkbox" name="topics" value="sport"> Sports nutrition</label>
+                            <label><input type="checkbox" name="topics" value="mind"> Mindful eating</label>
+                        </div>
+                        <label for="knowledge">How well do you know your cycle? (0&ndash;10)</label>
+                        <input type="range" id="knowledge" name="knowledge" min="0" max="10" value="5">
+                    </fieldset>
+                </div>
+
+                <div class="reg-form__bottom">
+                    <label class="agree"><input type="checkbox" name="agree" required> Do you agree to the terms and the privacy policy?</label>
+                    <div class="buttons">
+                        <button type="submit" class="btn btn--primary">Register</button>
+                        <button type="reset" class="btn btn--ghost">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- ===== ФОРМА ВХОДУ: стає модальним вікном (position: fixed) при :target ===== -->
+        <section id="login" class="form-block form-block--login" aria-labelledby="login-title">
+            <a class="login__backdrop" href="#closed" aria-label="Close"></a>
+            <div class="login__box">
+                <a class="login__close" href="#closed" aria-label="Close login window">&times;</a>
+                <h2 id="login-title">Login form</h2>
+                <form action="#login" method="post">
+                    <label for="login-email">Login (e-mail)</label>
+                    <input type="email" id="login-email" name="login" placeholder="Login" required autocomplete="username">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" placeholder="Password" required minlength="8" autocomplete="current-password">
+                    <label class="agree"><input type="checkbox" name="remember"> Remember me</label>
+                    <button type="submit" class="btn btn--primary">Sign in</button>
+                </form>
+                <p class="login__hint"><small>Tip: click &ldquo;Login form&rdquo; in the menu &ndash; the form opens as a modal window.</small></p>
+            </div>
+        </section>
+
+        <!-- ===== ФОРМА ЗВОРОТНОГО ЗВ'ЯЗКУ: float для колонок ===== -->
+        <section id="feedback" class="form-block form-block--feedback" aria-labelledby="feedback-title">
+            <h2 id="feedback-title">Feedback form</h2>
+            <form class="fb-form clearfix" action="#feedback" method="get">
+                <div class="fb-form__left">
+                    <label for="fb-name">Name</label>
+                    <input type="text" id="fb-name" name="name" placeholder="Name" required>
+
+                    <label for="fb-email">E-mail</label>
+                    <input type="email" id="fb-email" name="email" placeholder="E-mail" required>
+
+                    <label for="fb-topic">Subject</label>
+                    <select id="fb-topic" name="topic" required>
+                        <option value="" disabled selected>Message subject</option>
+                        <option>Seminar on 14.11.2026</option>
+                        <option>One-to-one coaching</option>
+                        <option>Corporate health management</option>
+                        <option>Something else</option>
+                    </select>
+
+                    <button type="submit" class="btn btn--primary">Send</button>
+                </div>
+                <div class="fb-form__right">
+                    <label for="fb-message">Message</label>
+                    <textarea id="fb-message" name="message" rows="9" placeholder="Your message&hellip;" required minlength="10" maxlength="1000"></textarea>
+                </div>
+            </form>
+        </section>
+
+        <!-- ===== Соцмережі ===== -->
+        <section class="social" aria-labelledby="social-title">
+            <h2 id="social-title" class="social__label">Social media</h2>
+            <ul class="social__list">
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" class="fill"/></svg></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a></li>
+                <li><a href="https://www.paracelsus.de/dozenten/v6z4/sofia-mildner" target="_blank" rel="noopener" aria-label="Paracelsus lecturer profile">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 6-14 15-15-1 9-7 15-15 15z"/><path d="M5 19c4-5 8-8 12-11"/></svg></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            <span>Copyright &copy; 2026 Sofia Mildner</span>
+            <span class="sep" aria-hidden="true">|</span>
+            <span>mob. <a href="tel:+490000000000">+49 000 000 00 00</a></span>
+            <span class="sep" aria-hidden="true">|</span>
+            <span>email: <a href="mailto:info@example.com">info@example.com</a></span>
+            <span class="sep" aria-hidden="true">|</span>
+            <span>skype: sofia.mildner</span>
+        </p>
+        <p><small>Lab work No.&nbsp;1 &middot; HTML5 &amp; CSS only</small></p>
+    </footer>
+
+    <!-- Кнопка «вгору»: завжди видно, position: fixed -->
+    <a class="to-top" href="#top" aria-label="Back to top">&uarr;</a>
 </body>
 </html>

@@ -2,161 +2,521 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      Sofia Mildner – Vegan Nutrition Counselor &amp; Cycle Educator
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sofia Mildner – vegan nutrition counsellor and cycle coach from Coswig near Dresden. Story, education, photos and qualifications."
+    />
+    <meta
+      name="keywords"
+      content="Sofia Mildner, vegan nutrition, menstrual cycle, hormone-free contraception, NFP, women's health, Dresden"
+    />
+    <meta name="author" content="Sofia Mildner" />
+    <title>Sofia Mildner – Vegan Nutrition &amp; Cycle Coach</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="top">
+    <!-- ===== HEADER: назва сайту + навігація ===== -->
     <header class="site-header">
-      <h1>Sofia Mildner</h1>
-      <p class="tagline">
-        Vegan nutrition counselor and educator for cycle awareness
-      </p>
-      <nav aria-label="Main navigation">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Sofia Mildner</span>
+        <span class="logo__tag"
+          >Naturopathy · Vegan Nutrition · Cycle Coaching</span
+        >
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
         <ul>
-          <li><a href="index.html" class="active">Biography</a></li>
-          <li><a href="career.html">Career</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#expertise">Education &amp; Expertise</a></li>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#qualifications">Qualifications</a></li>
+          <li><a href="seminar.html">Seminar</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="layout">
-      <section id="bio">
-        <article>
-          <h2>About Sofia</h2>
-
-          <figure class="portrait">
-            <img
-              src="images/Warme Portraitszene mit Zimmerpflanzen.webp"
-              alt="Portrait of Sofia Mildner"
-              width="260"
-              height="325"
-            />
-            <figcaption>Sofia Mildner</figcaption>
-          </figure>
-
-          <p>
-            Sofia Mildner is a <strong>vegan nutrition counselor</strong> and a
-            <strong>trained educator</strong> (<em>Erzieherin</em>) from Saxony,
-            Germany. Born in 2004, she has been intensely interested in
-            <em>nutrition and body awareness</em> since the age of 16, and she
-            moved to a vegan diet on her own initiative.
+    <main class="container">
+      <!-- ===== HERO ===== -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__text">
+          <p class="eyebrow">Educator &amp; vegan nutrition counsellor</p>
+          <h1 id="hero-title">
+            Look forward to your period – <em>naturally</em>
+          </h1>
+          <p class="lead">
+            I help women understand their cycle, eat well on a plant-based diet
+            and use contraception without hormones.
           </p>
-          <p>
-            At the end of 2021 she began to look more closely at her own health
-            and stopped taking the contraceptive pill, which she had taken for
-            about a year. Through specialist literature, blogs and a lot of
-            self-study she learned to understand her body and cycle in a new,
-            mindful way.
-          </p>
-          <p>
-            Alongside her training as an educator she turned that passion into a
-            profession. In coachings and workshops she helps women
-            <mark>look forward to their period</mark> and learn about
-            hormone-free contraception.
-          </p>
-
-          <h3>Focus areas</h3>
-          <ul>
-            <li>Vegan nutrition for beginners and for everyday life</li>
-            <li>Vegan sports nutrition</li>
-            <li>Fasting and mindful eating</li>
-            <li>Women's health and cycle-based nutrition</li>
-          </ul>
-
-          <h4>Teaching</h4>
-          <p>
-            She teaches in Dresden at the Paracelsus Heilpraktikerschule, where
-            she offers a seminar on understanding the natural cycle and on
-            hormone-free contraception (NFP).
-          </p>
-
-          <h5>Ways of working</h5>
-          <p>
-            Talks, courses, workshops, one-to-one counseling and corporate
-            health management, available on site, by video call, phone or
-            e-mail.
-          </p>
-
-          <h6>Note</h6>
-          <p>
-            <small
-              >This page is a student project and is based on public information
-              from Sofia Mildner's professional profiles. It is not medical
-              advice.</small
+          <p class="hero__actions">
+            <a class="btn btn--primary" href="seminar.html">See my seminar</a>
+            <a class="btn btn--ghost" href="contact.html#register"
+              >Join a workshop</a
             >
           </p>
-
-          <blockquote>
-            <p>
-              I live in harmony with my cycle and look forward to my period.
-            </p>
-            <footer>
-              — <cite>Sofia Mildner</cite>, from her professional profile
-              <small>(translated from German)</small>
-            </footer>
-          </blockquote>
-        </article>
-        <hr />
-
-        <article>
-          <h2>Career and qualifications</h2>
-          <p>
-            Sofia's key dates, training and achievements have their own page.
-          </p>
-          <p><a href="career.html">Go to the Career page</a></p>
-        </article>
+        </div>
+        <figure class="hero__figure">
+          <img
+            src="images/sofia-portrait.webp"
+            alt="Portrait of Sofia Mildner in a sage-green blazer, smiling"
+            width="420"
+            height="420"
+          />
+          <figcaption>Sofia Mildner</figcaption>
+        </figure>
       </section>
 
-      <aside class="sidebar">
-        <h2>Quick facts</h2>
-        <ul class="plain">
-          <li><strong>Profession:</strong> Vegan nutrition counselor</li>
-          <li><strong>Born:</strong> 2004</li>
-          <li><strong>Based in:</strong> Coswig, Germany</li>
-          <li><strong>Teaches in:</strong> Dresden</li>
-        </ul>
-        <hr />
-        <h3>Learn more</h3>
-        <ul>
-          <li>
-            <a
-              href="https://www.paracelsus.de/dozenten/v6z4/sofia-mildner"
-              target="_blank"
-              rel="noopener"
-              >Paracelsus lecturer profile</a
+      <hr />
+
+      <!-- ===== СЮЖЕТ: форматування тексту, цитати ===== -->
+      <section id="story" class="section story" aria-labelledby="story-title">
+        <h2 id="story-title" class="section__title">Story</h2>
+
+        <div class="story__grid">
+          <article class="story__text">
+            <h3>How it all began</h3>
+            <p>
+              Hi, I am <strong>Sofia Mildner</strong> – a trained
+              <em>educator</em> (<i lang="de">Erzieherin</i>) and a
+              <b>certified vegan nutrition counsellor</b>. Since I was
+              <span class="num">16</span> years old I have been fascinated by
+              <mark>nutrition and body awareness</mark>, so I switched my own
+              diet to vegan &ndash; step by step and entirely on my own.
+            </p>
+            <p>
+              After taking the pill for one year, I began to look consciously
+              for
+              <strong><em>hormone-free alternatives</em></strong
+              >. I used to believe that
+              <del>the pill is the only reliable option</del>
+              <ins>there are several reliable, hormone-free methods</ins>. At
+              the end of <time datetime="2021-12">2021</time> I stopped taking
+              it. Through specialist literature, blogs and a lot of self-study I
+              got to know my body and my cycle in a new, <i>mindful</i> way.
+            </p>
+
+            <blockquote
+              cite="https://www.paracelsus.de/dozenten/v6z4/sofia-mildner"
             >
-          </li>
-          <li>
-            <a
-              href="https://www.paracelsus.de/seminare/w3e8/periode-mit-vorfreude-erwarten-und-hormonfrei-verhueten"
-              target="_blank"
-              rel="noopener"
-              >Seminar page</a
+              <p>
+                Today I live in harmony with my cycle and look forward to my
+                period. I will show you how you, too, can use your cycle as a
+                strength and practise hormone-free contraception.
+              </p>
+              <footer>&mdash; <cite>Sofia Mildner</cite></footer>
+            </blockquote>
+
+            <h4>From passion to profession</h4>
+            <p>
+              Alongside my training as an educator I turned my passion into my
+              profession. In my coachings and workshops I accompany women who
+              want to replace the idea
+              <s>&ldquo;a period is something you just have to endure&rdquo;</s>
+              with real understanding. Key topics are the
+              <dfn><abbr title="Natural Family Planning">NFP</abbr></dfn>
+              method, cycle-based nutrition and critical nutrients such as
+              vitamin B<sub>12</sub>, iron and omega&#8209;3 fatty acids.
+            </p>
+            <p>
+              As the poster on my desk says:
+              <q>Kind people build better worlds.</q> A typical cycle lasts
+              about 28&nbsp;&plusmn;&nbsp;7 days &ndash; and every phase
+              (menstrual, follicular, ovulatory, luteal) needs something
+              different.<br />
+              That is exactly what we look at together.
+            </p>
+            <p>
+              <small
+                >Note: coaching complements but does not replace medical advice
+                from a doctor.</small
+              >
+            </p>
+          </article>
+
+          <!-- Бічна панель: ключові дати -->
+          <aside class="story__aside" aria-labelledby="dates-title">
+            <h3 id="dates-title">Key dates</h3>
+            <table class="dates">
+              <caption>
+                Milestones in Sofia's life
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Year</th>
+                  <th scope="col">Event</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><time datetime="2004">2004</time></td>
+                  <td>Born</td>
+                </tr>
+                <tr>
+                  <td>~2020</td>
+                  <td>
+                    At 16: first deep interest in nutrition, switches to a vegan
+                    diet
+                  </td>
+                </tr>
+                <tr>
+                  <td><time datetime="2021">2021</time></td>
+                  <td>Stops the pill, starts self-study of the cycle</td>
+                </tr>
+                <tr>
+                  <td>2020s</td>
+                  <td>Training as an educator (<i lang="de">Erzieherin</i>)</td>
+                </tr>
+                <tr>
+                  <td>2020s</td>
+                  <td>Certified vegan nutrition counsellor (ecodemy&reg;)</td>
+                </tr>
+                <tr>
+                  <td><time datetime="2026-11-14">14.11.2026</time></td>
+                  <td><mark>Seminar in Dresden</mark></td>
+                </tr>
+              </tbody>
+            </table>
+            <h5>Where</h5>
+            <p>Dresden, Saxony, Germany</p>
+          </aside>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- ===== ЗНІМАЛЬНА ГРУПА → освіта та напрями: вкладені списки ===== -->
+      <section
+        id="expertise"
+        class="section expertise"
+        aria-labelledby="expertise-title"
+      >
+        <h2 id="expertise-title" class="section__title">
+          Education &amp; Expertise
+        </h2>
+
+        <div class="expertise__grid">
+          <article class="card">
+            <h3>Focus areas</h3>
+            <ol>
+              <li>
+                Vegan nutrition
+                <ul>
+                  <li>for beginners</li>
+                  <li>in everyday life</li>
+                  <li>for sports</li>
+                </ul>
+              </li>
+              <li>
+                Cycle &amp; women's health
+                <ul>
+                  <li>hormone-free contraception (NFP)</li>
+                  <li>cycle-based nutrition</li>
+                </ul>
+              </li>
+              <li>
+                Mindful living
+                <ul>
+                  <li>fasting</li>
+                  <li>mindful eating</li>
+                </ul>
+              </li>
+            </ol>
+          </article>
+
+          <article class="card">
+            <h3>Achievements</h3>
+            <ol class="achievements">
+              <li>
+                State-approved distance-learning diploma
+                <strong>&ldquo;Vegan Nutrition Counsellor&rdquo;</strong> (675
+                h,
+                <abbr
+                  title="Deutscher Qualifikationsrahmen – German Qualifications Framework"
+                  >DQR</abbr
+                >
+                level 5)
+              </li>
+              <li>
+                12 further trainings, among them
+                <em>Women's Health &amp; Nutrition</em> and
+                <em>Neuro-Nutrition &amp; Mental Health</em>
+              </li>
+              <li>
+                Lecturer at the
+                <a
+                  href="https://www.paracelsus.de/dozenten/v6z4/sofia-mildner"
+                  target="_blank"
+                  rel="noopener"
+                  >Paracelsus school in Dresden</a
+                >
+              </li>
+              <li>Own coachings, workshops and online courses for women</li>
+            </ol>
+          </article>
+
+          <article class="card">
+            <h3>Services</h3>
+            <ul class="ticks">
+              <li>Talks</li>
+              <li>Courses, seminars, workshops</li>
+              <li>One-to-one counselling</li>
+              <li>Corporate health management</li>
+              <li>Recipes &amp; online courses</li>
+            </ul>
+            <h4>Available</h4>
+            <dl class="avail">
+              <dt>On site</dt>
+              <dd>Coswig / Dresden</dd>
+              <dt>Online</dt>
+              <dd>video call, phone, e-mail</dd>
+            </dl>
+          </article>
+        </div>
+
+        <details class="faq">
+          <summary>What is NFP?</summary>
+          <p>
+            <dfn>Natural Family Planning</dfn> is a hormone-free method in which
+            a woman observes body signs such as basal temperature and cervical
+            mucus to determine her fertile and infertile days.
+          </p>
+        </details>
+      </section>
+
+      <hr />
+
+      <!-- ===== ФОТО: звичайна, посилання, карта зображення ===== -->
+      <section
+        id="photos"
+        class="section photos"
+        aria-labelledby="photos-title"
+      >
+        <h2 id="photos-title" class="section__title">Photos</h2>
+
+        <div class="photos__grid">
+          <!-- 1. Звичайна картинка -->
+          <figure class="photo">
+            <img
+              src="images/sofia-portrait.webp"
+              alt="Sofia smiling, looking to the side, plants in the background"
+              width="320"
+              height="320"
+              loading="lazy"
+            />
+            <figcaption>Vegan Counsellor</figcaption>
+          </figure>
+
+          <!-- 2. Картинка-посилання на іншу сторінку -->
+          <figure class="photo photo--link">
+            <a href="seminar.html" title="Open the seminar page">
+              <img
+                src="images/sofia-workshop.webp"
+                alt="Sofia giving a workshop on Women's Cycle and Vegan Lifestyle"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+              <span class="photo__hint">Go to seminar &rarr;</span>
+            </a>
+            <figcaption>Visit workshop page</figcaption>
+          </figure>
+
+          <!-- 3. Карта зображення: частини картинки ведуть на різні сторінки -->
+          <figure class="photo photo--map">
+            <img
+              src="images/sofia-desk.webp"
+              alt="Sofia at her desk with books and values; parts of the image are links"
+              width="320"
+              height="320"
+              usemap="#desk-map"
+              loading="lazy"
+            />
+            <map name="desk-map">
+              <area
+                shape="rect"
+                coords="12,172,60,256"
+                href="seminar.html"
+                alt="Healthy women build a brighter future – seminar page"
+                title="Seminar page"
+              />
+              <area
+                shape="rect"
+                coords="237,10,316,171"
+                href="#expertise"
+                alt="Values and focus areas"
+                title="Focus areas"
+              />
+              <area
+                shape="rect"
+                coords="219,232,320,320"
+                href="seminar.html#program"
+                alt="Books – seminar programme"
+                title="Seminar programme"
+              />
+              <area
+                shape="rect"
+                coords="69,278,212,320"
+                href="contact.html#feedback"
+                alt="Notebook – write to Sofia"
+                title="Write to Sofia"
+              />
+            </map>
+            <figcaption>Details</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- ===== НАГОРОДИ → кваліфікації: таблиця з об'єднаними комірками ===== -->
+      <section
+        id="qualifications"
+        class="section quals"
+        aria-labelledby="quals-title"
+      >
+        <h2 id="quals-title" class="section__title">Qualifications</h2>
+
+        <div class="table-wrap">
+          <table class="quals__table">
+            <caption>
+              State-approved distance-learning courses completed at ecodemy&reg;
+            </caption>
+            <colgroup>
+              <col class="col-type" />
+              <col class="col-course" />
+              <col class="col-level" />
+              <col class="col-hours" />
+              <col class="col-provider" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col" rowspan="2">Type</th>
+                <th scope="col" rowspan="2">Course</th>
+                <th scope="colgroup" colspan="2">Details</th>
+                <th scope="col" rowspan="2">Provider</th>
+              </tr>
+              <tr>
+                <th scope="col">DQR level</th>
+                <th scope="col">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Vocational training</th>
+                <td><strong>Vegan Nutrition Counsellor</strong></td>
+                <td class="c">5</td>
+                <td class="c">675</td>
+                <td rowspan="13" class="provider">
+                  ecodemy&reg;<br /><small
+                    >state-approved<br />distance learning</small
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="5">Specialist training</th>
+                <td>Vegan Nutrition for Professionals</td>
+                <td class="c">4</td>
+                <td class="c">360</td>
+              </tr>
+              <tr>
+                <td>Gut Health &amp; Food Intolerances</td>
+                <td class="c">4</td>
+                <td class="c">180</td>
+              </tr>
+              <tr>
+                <td>Vegan Nutrition for Mother &amp; Child</td>
+                <td class="c">4</td>
+                <td class="c">180</td>
+              </tr>
+              <tr>
+                <td>Sustainable Weight Management</td>
+                <td class="c">4</td>
+                <td class="c">360</td>
+              </tr>
+              <tr>
+                <td>Vegan Nutrition for Athletes</td>
+                <td class="c">4</td>
+                <td class="c">180</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="7">Further education</th>
+                <td>Vegan Sports Nutrition &amp; Meal Planning</td>
+                <td class="c">&ndash;</td>
+                <td class="c">45</td>
+              </tr>
+              <tr>
+                <td>Anti-Inflammatory Nutrition</td>
+                <td class="c">4</td>
+                <td class="c">90</td>
+              </tr>
+              <tr>
+                <td>Conversation Psychology for Counselling</td>
+                <td class="c">4</td>
+                <td class="c">90</td>
+              </tr>
+              <tr class="highlight">
+                <td><mark>Women's Health &amp; Nutrition</mark></td>
+                <td class="c">4</td>
+                <td class="c">135</td>
+              </tr>
+              <tr>
+                <td>Neuro-Nutrition &amp; Mental Health</td>
+                <td class="c">4</td>
+                <td class="c">90</td>
+              </tr>
+              <tr>
+                <td>Healthy Weight, Well-being &amp; Vitality</td>
+                <td class="c">4</td>
+                <td class="c">90</td>
+              </tr>
+              <tr>
+                <td>Longevity Basics</td>
+                <td class="c">&ndash;</td>
+                <td class="c">90</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="3">Total study time</th>
+                <td colspan="2"><strong>2&nbsp;565 hours</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p class="note">
+          <small
+            >Source: public profile in the
+            <a href="https://www.ecodemy.de/" target="_blank" rel="noopener"
+              >ecodemy&reg;</a
             >
-          </li>
-          <li>
-            <a
-              href="https://www.paracelsus.de/heilpraktikerschulen/dresden"
-              target="_blank"
-              rel="noopener"
-              >School in Dresden</a
-            >
-          </li>
-        </ul>
-      </aside>
+            directory. DQR = German Qualifications Framework.</small
+          >
+        </p>
+      </section>
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer class="site-footer">
       <p>
-        <small
-          >&copy; 2026 Student project about Sofia Mildner. Information from
-          public profiles.</small
+        <span>Copyright &copy; 2026 Sofia Mildner</span>
+        <span class="sep" aria-hidden="true">|</span>
+        <span>mob. <a href="tel:+490000000000">+49 000 000 00 00</a></span>
+        <span class="sep" aria-hidden="true">|</span>
+        <span
+          >email: <a href="mailto:info@example.com">info@example.com</a></span
         >
+        <span class="sep" aria-hidden="true">|</span>
+        <span>TikTok: sofia.mildner</span>
       </p>
     </footer>
+
+    <a class="to-top" href="#top" aria-label="Back to top">&uarr;</a>
   </body>
 </html>
