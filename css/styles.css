@@ -43,6 +43,7 @@ nav a:hover, nav a.active { background: var(--paper); color: var(--plum); }
 /* Layout and floats */
 .layout { display: flow-root; max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
 #bio { float: left; width: 68%; }
+.wide { width: 100%; }
 .sidebar {
   float: right; width: 28%; padding: 1.2rem; border-radius: var(--radius);
   background: var(--petal); position: relative;

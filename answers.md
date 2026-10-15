@@ -10,5 +10,8 @@
 8. **HTTP methods in forms.** `GET` puts data in the URL (searches, non-sensitive data); `POST` sends it in the request body (logins, messages, changes). The `method` attribute accepts only these two.
 9. **Pseudo-classes vs pseudo-elements.** Pseudo-classes (one colon) select an element in a state: `:hover`, `:focus`, `:valid`, `:invalid`, `:nth-child()`. Pseudo-elements (two colons) select a part of an element or generate content: `::before`, `::after`, `::first-line`, `::placeholder`.
 
+# Site structure
+Three separate pages linked by the navigation: `index.html` (biography), `career.html` (key dates and achievements), `contact.html` (forms).
+
 # Technologies used
 HTML5 semantic markup, CSS3 (custom properties, flexbox, float, position relative/absolute/fixed/sticky, gradients, box-shadow, border-radius, transitions, keyframe animation, `:target`-based modal, form validation pseudo-classes) and responsive media queries. No JavaScript.
