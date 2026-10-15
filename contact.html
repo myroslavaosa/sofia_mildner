@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Sofia Mildner</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Sofia Mildner</h1>
+    <p class="tagline">Contact and seminar enquiries</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Biography</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="layout contact-layout">
+    <section class="form-card">
+      <h2>Send a message</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required minlength="2" placeholder="Anna Example">
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required placeholder="anna@example.com">
+        </div>
+        <div class="field">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option>Seminar</option>
+            <option>One-to-one counseling</option>
+            <option>Workshop or talk</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required minlength="10" placeholder="How can Sofia help you?"></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+    <aside class="info-card">
+      <h2>Details</h2>
+      <p>Coswig, Germany<br>Teaches in Dresden</p>
+      <p>Available on site, by video call, phone or e-mail.</p>
+      <div class="badge">Seminars: 1</div>
+      <figure class="float-figure">
+        <img src="images/portrait-placeholder.svg" alt="Portrait placeholder" width="110" height="138">
+        <figcaption>Photo placeholder</figcaption>
+      </figure>
+      <p>Prefer a short note? Use the newsletter form to hear about new seminar dates.</p>
+      <a class="button-link" href="#newsletter-modal">Join the newsletter</a>
+      <p class="clear"><small>Forms on this page are demonstrations; they do not store data.</small></p>
+    </aside>
+  </main>
+
+  <!-- Modal window (position: fixed), opened with the :target selector -->
+  <div class="modal" id="newsletter-modal" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <a class="close" href="#" aria-label="Close">&times;</a>
+      <h2 id="modal-title">Seminar newsletter</h2>
+      <form action="https://httpbin.org/post" method="post">
+        <div class="field">
+          <label for="news-email">E-mail</label>
+          <input type="email" id="news-email" name="newsletter_email" required placeholder="you@example.com">
+        </div>
+        <div class="field check">
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree to receive seminar news.</label>
+        </div>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p><small>&copy; 2026 Student project about Sofia Mildner.</small></p>
+  </footer>
+</body>
+</html>
