@@ -669,7 +669,7 @@ input[type="range"] { padding: 0; accent-color: var(--green-700); border: 0; box
    ========================================================= */
 .seminar__head { padding-top: 48px; max-width: 820px; }
 .seminar__figure { margin: 24px 0 40px; }
-.seminar__figure img { width: 100%; max-height: 520px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow); }
+.seminar__figure img { width: 100%; max-height: 520px; object-fit: cover; object-position: center top; border-radius: 20px; box-shadow: var(--shadow); }
 .seminar__grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 40px; align-items: start; }
 .seminar__about ol { padding-left: 1.3em; }
 .seminar__about ol li::marker { color: var(--green-500); font-weight: 600; }
